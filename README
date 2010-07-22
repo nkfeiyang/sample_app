@@ -1,58 +1,58 @@
-1.github´úÂëÍĞ¹ÜËµÃ÷
+ï»¿1.githubä»£ç æ‰˜ç®¡è¯´æ˜
 
 git@github.com:nkfeiyang/APPNAME.git
-ÕâÀïnkfeiyangÊÇÔÚgithubÉÏµÄÕÊºÅ£¬Ê¹ÓÃµÄemailÎªwang_haibing@126.com
-½²Õâ¸öÊı¾İÅäÖÃµ½gitÖĞÈ¥£º
+è¿™é‡Œnkfeiyangæ˜¯åœ¨githubä¸Šçš„å¸å·ï¼Œä½¿ç”¨çš„emailä¸ºwang_haibing@126.com
+è®²è¿™ä¸ªæ•°æ®é…ç½®åˆ°gitä¸­å»ï¼š
 		git config --global user.name "nkfeiyang"
 	  git config --global user.email wang_haibing@126.com
-±¾µØ±ØĞëÒª´´½¨rsaÎÄ¼ş£¬Èç¹û²»ÖªµÀÔõÃ´´´½¨£¬Çë²Î¿¼http://help.github.com/msysgit-key-setup/¡£²¢ÇÒÎÄ¼şÒª·Åµ½Ö¸¶¨µÄÄ¿Â¼(±ÈÈç/c/Users/Tekkub/.ssh/)¡£Èç¹û´´½¨ºóÊ¹ÓÃ³öÎÊÌâÁË£¬¿ÉÒÔ¿´http://help.github.com/troubleshooting-ssh/À´ÕÒÔ­Òò¡£
+æœ¬åœ°å¿…é¡»è¦åˆ›å»ºrsaæ–‡ä»¶ï¼Œå¦‚æœä¸çŸ¥é“æ€ä¹ˆåˆ›å»ºï¼Œè¯·å‚è€ƒhttp://help.github.com/msysgit-key-setup/ã€‚å¹¶ä¸”æ–‡ä»¶è¦æ”¾åˆ°æŒ‡å®šçš„ç›®å½•(æ¯”å¦‚/c/Users/Tekkub/.ssh/)ã€‚å¦‚æœåˆ›å»ºåä½¿ç”¨å‡ºé—®é¢˜äº†ï¼Œå¯ä»¥çœ‹http://help.github.com/troubleshooting-ssh/æ¥æ‰¾åŸå› ã€‚
 
-(1)È«ĞÂ´´½¨
-  µÚÒ»²½£ºÔÚgithubÕÊºÅ¹ÜÀíÀï´´½¨Ò»¸ö²Ö¿â£¬±ÈÈçÃüÃûÎªsample_app
-  µÚ¶ş²¿£ºÔÚ±¾µØµÄÏîÄ¿ÖĞ£¬Ê¹ÓÃgitÃüÁîĞĞ
-      cmd½øÈëÏîÄ¿ÎÄ¼ş¼Ğ£¬ÔËĞĞÃüÁîÈçÏÂ£º
+(1)å…¨æ–°åˆ›å»º
+  ç¬¬ä¸€æ­¥ï¼šåœ¨githubå¸å·ç®¡ç†é‡Œåˆ›å»ºä¸€ä¸ªä»“åº“ï¼Œæ¯”å¦‚å‘½åä¸ºsample_app
+  ç¬¬äºŒéƒ¨ï¼šåœ¨æœ¬åœ°çš„é¡¹ç›®ä¸­ï¼Œä½¿ç”¨gitå‘½ä»¤è¡Œ
+      cmdè¿›å…¥é¡¹ç›®æ–‡ä»¶å¤¹ï¼Œè¿è¡Œå‘½ä»¤å¦‚ä¸‹ï¼š
 	  git init
 	  git add .
 	  git commit -m 'init commit'
 	  git remote add origin git@github.com:nkfeiyang/sample_app.git
 	  git push origin master
 	  
-	 ²Î¿¼ÎÄ¼ş£ºhttp://help.github.com/creating-a-repo/
-	 ÕâÀïorigin²»¹ıÊÇÒ»¸ö±ğÃû¶øÒÑ£¬ËüÖ¸µÄÊÇÂ·¾¶git@github.com:nkfeiyang/sample_app.git
-(2)·şÎñÆ÷ÒÑ¾­ÓĞÁËÒ»¸ö²Ö¿â
-    Èç¹û±¾µØÃ»ÓĞÏîÄ¿£¬ÔòĞèÒª½«¸ÃÏîÄ¿ÏÂÔØµ½±¾µØ(±ÈÈçnewdirÖĞ)¡£
+	 å‚è€ƒæ–‡ä»¶ï¼šhttp://help.github.com/creating-a-repo/
+	 è¿™é‡Œoriginä¸è¿‡æ˜¯ä¸€ä¸ªåˆ«åè€Œå·²ï¼Œå®ƒæŒ‡çš„æ˜¯è·¯å¾„git@github.com:nkfeiyang/sample_app.git
+(2)æœåŠ¡å™¨å·²ç»æœ‰äº†ä¸€ä¸ªä»“åº“
+    å¦‚æœæœ¬åœ°æ²¡æœ‰é¡¹ç›®ï¼Œåˆ™éœ€è¦å°†è¯¥é¡¹ç›®ä¸‹è½½åˆ°æœ¬åœ°(æ¯”å¦‚newdirä¸­)ã€‚
 	git clone git@github.com:nkfeiyang/sample_app.git newdir
-	ĞŞ¸Äºó£¬Ìá½»¡£
+	ä¿®æ”¹åï¼Œæäº¤ã€‚
 	git commit -m 'update ...'
-	Í¬²½µ½·şÎñÆ÷Ç°Ò²ĞèÒªÅäÖÃÒ»ÏÂgit£¨Èç¹ûÒÔÇ°Ã»ÓĞÅäÖÃµÄ»°£©
+	åŒæ­¥åˆ°æœåŠ¡å™¨å‰ä¹Ÿéœ€è¦é…ç½®ä¸€ä¸‹gitï¼ˆå¦‚æœä»¥å‰æ²¡æœ‰é…ç½®çš„è¯ï¼‰
 	git remote add origin git@github.com:nkfeiyang/sample_app.git
 	git push origin master 
 	
-	Èç¹û±¾µØµÄÏîÄ¿ÊÇÒÔÇ°Ìá½»µ½·şÎñÆ÷µÄ£¬ÄÇÃ´ÔÚ×÷³öĞŞ¸ÄºóĞèÒªÍ¬²½µ½·şÎñÆ÷£¬¿ÉÒÔÔËĞĞ
+	å¦‚æœæœ¬åœ°çš„é¡¹ç›®æ˜¯ä»¥å‰æäº¤åˆ°æœåŠ¡å™¨çš„ï¼Œé‚£ä¹ˆåœ¨ä½œå‡ºä¿®æ”¹åéœ€è¦åŒæ­¥åˆ°æœåŠ¡å™¨ï¼Œå¯ä»¥è¿è¡Œ
 	git push origin master
 
-2.heroku·¢²¼ËµÃ÷
+2.herokuå‘å¸ƒè¯´æ˜
 
-ÕÊºÅwang_haibing@126.com
-ËüÒ²ĞèÒªsshÈÏÖ¤¡£Èç¹û±¾µØÃ»ÓĞ£¬Çë´´½¨Ö®¡£¸úÇ°ÃæµÄÒ»Ñù¡£
+å¸å·wang_haibing@126.com
+å®ƒä¹Ÿéœ€è¦sshè®¤è¯ã€‚å¦‚æœæœ¬åœ°æ²¡æœ‰ï¼Œè¯·åˆ›å»ºä¹‹ã€‚è·Ÿå‰é¢çš„ä¸€æ ·ã€‚
 
-×¼±¸¹¤×÷£º°²×°git£¬Ö®ºó°²×°heroku
+å‡†å¤‡å·¥ä½œï¼šå®‰è£…gitï¼Œä¹‹åå®‰è£…heroku
 gem install heroku
 
-ÏÂÃæ¼Ù¶¨ÏîÄ¿sample_appÒÑ¾­±»Ìí¼Óµ½gitÖĞÁË¡£
+ä¸‹é¢å‡å®šé¡¹ç›®sample_appå·²ç»è¢«æ·»åŠ åˆ°gitä¸­äº†ã€‚
 
 http://docs.heroku.com/quickstart
-ÔÚherokuÉÏ´´½¨ÏîÄ¿
+åœ¨herokuä¸Šåˆ›å»ºé¡¹ç›®
 heroku create
-ÆäÎªÄã´´½¨Ò»¸öÏîÄ¿£¬µ«ÏîÄ¿µÄÃû³Æ¿ÉÄÜ²»ºÃ¼Ç¡£±ÈÈçgit@heroku.com:high-sunrise-58.git
-Ëü×Ô¶¯°ÑÕâ¸ö¸øÌí¼Óµ½Ò»¸öremoteÖĞÈ¥ÁË£¬Ïàµ±ÓÚÖ´ĞĞÁËgit remote add heroku git@heroku.com:high-sunrise-58.git
-ÕâÑùÒÔºó¾Í¿ÉÒÔÊ¹ÓÃherokuÕâ¸ö±ğÃûÁË¡£
-ÓÉÓÚgit@heroku.com:high-sunrise-58.git²»ºÃ¼Ç£¬¿ÉÒÔ¸ÄÃû¡£ÎÒÒÑ¾­¸ÄÃû³ÉÁËnkfeiyang.
+å…¶ä¸ºä½ åˆ›å»ºä¸€ä¸ªé¡¹ç›®ï¼Œä½†é¡¹ç›®çš„åç§°å¯èƒ½ä¸å¥½è®°ã€‚æ¯”å¦‚git@heroku.com:high-sunrise-58.git
+å®ƒè‡ªåŠ¨æŠŠè¿™ä¸ªç»™æ·»åŠ åˆ°ä¸€ä¸ªremoteä¸­å»äº†ï¼Œç›¸å½“äºæ‰§è¡Œäº†git remote add heroku git@heroku.com:high-sunrise-58.git
+è¿™æ ·ä»¥åå°±å¯ä»¥ä½¿ç”¨herokuè¿™ä¸ªåˆ«åäº†ã€‚
+ç”±äºgit@heroku.com:high-sunrise-58.gitä¸å¥½è®°ï¼Œå¯ä»¥æ”¹åã€‚æˆ‘å·²ç»æ”¹åæˆäº†nkfeiyang.(è®¿é—®åœ°å€ä¸ºhttp://nkfeiyang.heroku.com/)
 
-Òò´Ë£¬Ö»ĞèÒªÔÚÏîÄ¿ÖĞÖ´ĞĞgit remote add heroku git@heroku.com:nkfeiyang
-È»ºó£¬git push heroku master ¼´¿ÉÌá½»²¢·¢²¼
+å› æ­¤ï¼Œåªéœ€è¦åœ¨é¡¹ç›®ä¸­æ‰§è¡Œgit remote add heroku git@heroku.com:nkfeiyang
+ç„¶åï¼Œgit push heroku master å³å¯æäº¤å¹¶å‘å¸ƒ
 
-¶ÔÓÚĞÂĞŞ¸ÄÁËµÄ¶«Î÷£¬Ê×ÏÈÒªgit commit£¬È»ºógit push heroku¼´¿É¡£
+å¯¹äºæ–°ä¿®æ”¹äº†çš„ä¸œè¥¿ï¼Œé¦–å…ˆè¦git commitï¼Œç„¶ågit push herokuå³å¯ã€‚
 
 
 
