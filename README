@@ -43,16 +43,23 @@ gem install heroku
 
 http://docs.heroku.com/quickstart
 在heroku上创建项目
-heroku create
-其为你创建一个项目，但项目的名称可能不好记。比如git@heroku.com:high-sunrise-58.git
-它自动把这个给添加到一个remote中去了，相当于执行了git remote add heroku git@heroku.com:high-sunrise-58.git
+heroku create myapp  如果没有myapp，那么系统会其为你创建一个项目，但项目的名称可能不好记。
+比如git@heroku.com:high-sunrise-58.git 它自动把这个给添加到一个remote中去了，相当于执行了git remote add heroku git@heroku.com:high-sunrise-58.git
 这样以后就可以使用heroku这个别名了。
-由于git@heroku.com:high-sunrise-58.git不好记，可以改名。我已经改名成了nkfeiyang.(访问地址为http://nkfeiyang.heroku.com/)
+由于git@heroku.com:high-sunrise-58.git不好记，可以改名。
+我已经改名成了nkfeiyang.(访问地址为http://nkfeiyang.heroku.com/)
 
-因此，只需要在项目中执行git remote add heroku git@heroku.com:nkfeiyang
+因此，只需要在项目中执行git remote add heroku git@heroku.com:nkfeiyang.git
 然后，git push heroku master 即可提交并发布
 
 对于新修改了的东西，首先要git commit，然后git push heroku即可。
+
+将本地数据更新到Heroku网站上:
+$ heroku db:push
+（这个命令会使用taps，如果没有安装，请先安装。）
+
+要打开网页浏览，就可以用
+$ heroku open
 
 
 
