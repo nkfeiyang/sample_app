@@ -62,6 +62,13 @@ $ heroku db:push
 $ heroku open
 
 
+安装的东西
+1.gem install rspec
+2.gem install rspec-rails
+3.gem install autotest-rails
+4.gem install autotest-growl
+5.growl:http://www.growlforwindows.com/gfw/help/default.aspx
+6.gem install win32console
 
 
 
