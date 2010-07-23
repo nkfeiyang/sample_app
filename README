@@ -69,7 +69,7 @@ $ heroku open
 4.gem install autotest-growl
 5.growl:http://www.growlforwindows.com/gfw/help/default.aspx
 6.gem install win32console
-7.gem install factory_girls -v 1.2.4
+7.gem install factory_girl -v 1.2.4
 8.gem install gravatar -v 1.0
 
 
