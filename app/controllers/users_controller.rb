@@ -8,4 +8,5 @@ class UsersController < ApplicationController
     @title = @user.name
   end
 
+  
 end
