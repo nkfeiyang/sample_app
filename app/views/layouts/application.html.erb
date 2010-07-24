@@ -9,9 +9,44 @@
 		<div class="container">
 			<%= render 'layouts/header' %>
 			<div id="content" class="round">
+				<% flash.each do |key, value| %>
+					<div class="flash <%= key %>"><%= value %></div>
+				<% end %>
 				<%= yield %>
 			</div>
 			<%= render 'layouts/footer' %>
-		</div>
+			<%= debug(params) if Rails.env.development? %>
+		</div>		
 	</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

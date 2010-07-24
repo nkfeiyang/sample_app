@@ -72,6 +72,9 @@ $ heroku open
 7.gem install factory_girl -v 1.2.4
 8.gem install gravatar -v 1.0
 
+9.gem install webrat -v 0.7.1(以plugin方式安装的(script/plugin git://github.com/brynary/webrat.git)，gem安装文件比较大需要等待很长时间)
+10.gem install launchy -v 0.3.7
+
 
 
 
