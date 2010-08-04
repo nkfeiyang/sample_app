@@ -30,6 +30,12 @@ git@github.com:nkfeiyang/APPNAME.git
 	
 	如果本地的项目是以前提交到服务器的，那么在作出修改后需要同步到服务器，可以运行
 	git push origin master
+        注意，这是针对master分支的操作。
+        对于分支的操作：
+        git branch:查看有多少分支
+        git checkout <branch-name>:切换到指定分支
+        git checkout -b <branch-name>:创建一个新分支，从当前分支继承
+        在push和pull时，最好你要操作哪个分支，就切换到当前分支上。否则，容易混乱。
 
 2.heroku发布说明
 
