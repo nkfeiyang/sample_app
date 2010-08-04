@@ -82,4 +82,9 @@ $ heroku open
 10.gem install launchy -v 0.3.7
 
 
-current page : 303 / 415
+current page : 316 / 415 List 9.27 spec/integration/layout_links_spec.rb
+
+TODO LIST:
+2010.8.4
+(1)rake db:migrate
+(2)rake db:test:prepare
