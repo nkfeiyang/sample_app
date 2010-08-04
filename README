@@ -36,6 +36,7 @@ git@github.com:nkfeiyang/APPNAME.git
         git checkout <branch-name>:切换到指定分支
         git checkout -b <branch-name>:创建一个新分支，从当前分支继承
         在push和pull时，最好你要操作哪个分支，就切换到当前分支上。否则，容易混乱。
+   如果服务器上有分支了，本地clone一个master之后，只需要调用git checkout <branch-name>即可切换到该分支。
 
 2.heroku发布说明
 
