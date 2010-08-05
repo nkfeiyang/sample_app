@@ -1,26 +1,27 @@
-﻿1.github代码托管说明
+1.github代码托管说明
 
 git@github.com:nkfeiyang/APPNAME.git
 这里nkfeiyang是在github上的帐号，使用的email为wang_haibing@126.com
 讲这个数据配置到git中去：
-		git config --global user.name "nkfeiyang"
-	  git config --global user.email wang_haibing@126.com
+git config --global user.name "nkfeiyang"
+git config --global user.email wang_haibing@126.com
 本地必须要创建rsa文件，如果不知道怎么创建，请参考http://help.github.com/msysgit-key-setup/。并且文件要放到指定的目录(比如/c/Users/Tekkub/.ssh/)。如果创建后使用出问题了，可以看http://help.github.com/troubleshooting-ssh/来找原因。
 
 (1)全新创建
   第一步：在github帐号管理里创建一个仓库，比如命名为sample_app
   第二部：在本地的项目中，使用git命令行
       cmd进入项目文件夹，运行命令如下：
-	  git init
-	  git add .
-	  git commit -m 'init commit'
-	  git remote add origin git@github.com:nkfeiyang/sample_app.git
-	  git push origin master
-	  
-	 参考文件：http://help.github.com/creating-a-repo/
-	 这里origin不过是一个别名而已，它指的是路径git@github.com:nkfeiyang/sample_app.git
+git init
+git add .
+git commit -m 'init commit'
+git remote add origin git@github.com:nkfeiyang/sample_app.git
+git push origin master
+
+参考文件：http://help.github.com/creating-a-repo/
+这里origin不过是一个别名而已，它指的是路径git@github.com:nkfeiyang/sample_app.git
 (2)服务器已经有了一个仓库
     如果本地没有项目，则需要将该项目下载到本地(比如newdir中)。
+<<<<<<< HEAD
 	git clone git@github.com:nkfeiyang/sample_app.git newdir
 	修改后，提交。
 	git commit -m 'update ...'
@@ -30,13 +31,27 @@ git@github.com:nkfeiyang/APPNAME.git
 	
 	如果本地的项目是以前提交到服务器的，那么在作出修改后需要同步到服务器，可以运行
 	git push origin master
+=======
+git clone git@github.com:nkfeiyang/sample_app.git newdir
+修改后，提交。
+git commit -m 'update ...'
+同步到服务器前也需要配置一下git（如果以前没有配置的话）
+git remote add origin git@github.com:nkfeiyang/sample_app.git
+git push origin master
+
+如果本地的项目是以前提交到服务器的，那么在作出修改后需要同步到服务器，可以运行
+git push origin master
+>>>>>>> sign-in-out
         注意，这是针对master分支的操作。
         对于分支的操作：
         git branch:查看有多少分支
         git checkout <branch-name>:切换到指定分支
         git checkout -b <branch-name>:创建一个新分支，从当前分支继承
         在push和pull时，最好你要操作哪个分支，就切换到当前分支上。否则，容易混乱。
+<<<<<<< HEAD
    如果服务器上有分支了，本地clone一个master之后，只需要调用git checkout <branch-name>即可切换到该分支。
+=======
+>>>>>>> sign-in-out
 
 2.heroku发布说明
 
@@ -50,7 +65,7 @@ gem install heroku
 
 http://docs.heroku.com/quickstart
 在heroku上创建项目
-heroku create myapp  如果没有myapp，那么系统会其为你创建一个项目，但项目的名称可能不好记。
+heroku create myapp 如果没有myapp，那么系统会其为你创建一个项目，但项目的名称可能不好记。
 比如git@heroku.com:high-sunrise-58.git 它自动把这个给添加到一个remote中去了，相当于执行了git remote add heroku git@heroku.com:high-sunrise-58.git
 这样以后就可以使用heroku这个别名了。
 由于git@heroku.com:high-sunrise-58.git不好记，可以改名。
@@ -83,14 +98,9 @@ $ heroku open
 10.gem install launchy -v 0.3.7
 
 
+current page : 316 / 415 List 9.27 spec/integration/layout_links_spec.rb
 
-
-
-
-
-
-
-
-
-
-
+TODO LIST:
+2010.8.4
+(1)rake db:migrate
+(2)rake db:test:prepare
