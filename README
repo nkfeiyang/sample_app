@@ -88,3 +88,39 @@ TODO LIST:
 2010.8.4
 (1)rake db:migrate
 (2)rake db:test:prepare
+## 2010.8.4 OK
+
+2010.8.6
+(1)gem install faker -v 0.3.1
+(2) rake gems:install      # 安装分页组件，放到config/environment.rb中去了
+# 这个好像运行不能成功。只好直接安装了。
+gem install will_paginate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

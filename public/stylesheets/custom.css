@@ -172,7 +172,13 @@ div.field, div.actions {
 	list-style: square;
 }
 
+ul.users {
+	margin-top: 1em;-moz-binding;
+}
 
+.users li {
+	list-style: none;
+}
 
 
 
