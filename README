@@ -66,6 +66,7 @@ $ heroku db:push
 
 要打开网页浏览，就可以用
 $ heroku open
+如果在本地的ssh的key更新了，这时需要重新添加key到heroku上。参考文档：http://docs.heroku.com/heroku-command
 
 
 安装的东西
