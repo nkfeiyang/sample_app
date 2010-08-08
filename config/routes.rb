@@ -8,8 +8,11 @@ ActionController::Routing::Routes.draw do |map|
   
   map.resources :users
   map.resources :sessions,  :only => [:new, :create, :destroy]
+  map.resources :microposts,:only => [:create, :destroy]
+  
   map.signin    '/signin',  :controller => 'sessions', :action => 'new'
   map.signout   '/signout', :controller => 'sessions', :action => 'destroy'
+  
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

@@ -96,7 +96,7 @@ TODO LIST:
 (2) rake gems:install      # 安装分页组件，放到config/environment.rb中去了
 # 这个好像运行不能成功。只好直接安装了。
 gem install will_paginate
-
+## 2010.8.6 OK
 
 
 
