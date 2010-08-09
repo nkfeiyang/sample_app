@@ -6,7 +6,7 @@
   	<span class="user">
   	  <%= link_to h(feed_item.user.name), feed_item.user %>
   	</span>
-	<span class="content"><%= h feed_item.content %></span>
+	<span class="content"><%= wrap(display(feed_item.content)) %></span>
 	<span class="timestamp">
 	  发表于<%= time_ago_in_words(feed_item.created_at) %> 之前.	
 	</span>
