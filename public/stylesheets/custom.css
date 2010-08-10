@@ -231,7 +231,22 @@ form.new_micropost textarea {
 	margin-bottom: 0;
 }
 
+.stats {
+	
+	
+	background-color: #000099;
+}
 
+.stats table tr td {
+	vertical-align:middle;
+	
+}
+
+.stat {
+	font-family:Arial;
+    font-size:18px;
+    margin-right:5px;
+}
 
 
 
