@@ -4,7 +4,14 @@ class Micropost < ActiveRecord::Base
   belongs_to :user
   
   validates_presence_of :content, :user_id
-  validates_length_of   :content, :maximum => 140
+  validates_length_of   :content, 
+    :maximum => 140,
+    :too_long => "不能超过{{count}}个字符。"
+  
+  ## 这种方法能够不显示字段名  
+  # def validate
+  #   errors.add '内容' , '不能超过140个字符。'  if :content.to_s.length < 140
+  # end  
   
   default_scope :order => 'created_at DESC'
   

@@ -1,0 +1,27 @@
+http://www.railstutorial.org
+http://www.github.com
+http://www.heroku.com
+http://blog.hasmanythrough.com/2008/4/2/simple-pages
+
+get one's bearings: Richard struggled with the map in the car to get his bearings.
+nascent ['næsənt, 'nei-]: a perfect start for our nascent application
+messy: My son's room is always very messy.
+straightaway: Rails renders it straightaway
+get a glimpse of: We got a glimpse of controllers in Chapter 2.
+overkill: At first, testing for the existence of a page might seem like overkill, but experience shows that it is not.
+polished: Once you see the general shape of the solution, you can then use TDD to implement a more polished version.
+intimidate: RSpec can be a little intimidating at first.
+prudent: Since the stack trace is often useful in debugging, spec spec/ is a prudent default.
+out of habit: I confess, though, that out of habit I usually type rake spec, and switch to spec spec/ if something goes wrong.
+mimic: Eventually we'll fill it with something more informative, but for now we'll just mimic the content from the generated views for the about view.
+seep: Our sample app is a little too small to refactor right now, but code smell seeps in at every crack.
+fragile: in general testing HTML can be quite fragile since content tends to change frequently.
+sparse: the documentation for have_tag is surprisingly sparse.
+legibility: The reason I chose to break the code into pieces is that I prefer to keep lines of source code under 80 characters for legibility.
+observant: If you were very observant, ...
+at a stroke: This will make it much simpler to remove all the repetition at a stroke.
+oblige: Indeed, it would be nice, and Rails happily obliges using a special file called application.html.erb, which lives in the layouts directory.
+hoist: our views are still filled with all the HTML structure we just hoisted into the layout, so we have to rip it out, leaving only the interior contents.
+desirable: 
+ tedious: To include an explicit option in every URL would be tedious and probably impossible, of course.
+ clumsy: When working with a large amount of static content, which would be clumsy to put inside YAML or Ruby dictionaries.

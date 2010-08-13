@@ -1,5 +1,6 @@
 <% form_for @micropost do |f| %>
-  <%= f.error_messages %>
+  <%= f.error_messages :header_message => "失败啦",
+    :message => "失败原因如下:" %>
   <div class="field">
   	<%= f.text_area :content %>
   </div>

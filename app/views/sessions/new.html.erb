@@ -2,7 +2,7 @@
 
 <% form_for(:session, :url => sessions_path) do |f| %>
   <div class="field">
-  	<%= f.label :email %><br/>
+  	<%= f.label :email, User.human_attribute_name(:email) %><br/>
 	<%= f.text_field :email %>
   </div>
   <div class="field">
