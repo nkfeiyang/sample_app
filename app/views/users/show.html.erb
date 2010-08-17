@@ -3,7 +3,7 @@
 		<td class="main">
 			<h2>
 				<%= gravatar_for @user, :size => 180 %>
-				<%= h @user.name %>
+				<%= h @user.name %><%= MyTTT() %>
 			</h2>
 			<%= render 'follow_form' if signed_in? %>
 			<% unless @user.microposts.empty? %>

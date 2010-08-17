@@ -2,6 +2,31 @@ http://www.railstutorial.org
 http://www.github.com
 http://www.heroku.com
 http://blog.hasmanythrough.com/2008/4/2/simple-pages
+http://www.rubular.com/
+http://railscasts.com
+
+$script/console --sandbox
+$tail -f log/development.log
+annotate_models
+$script/generate rspec_model User name:string email:string
+<%= debug(params) if Rails.env.development? %>
+*如果一个方法位于controller中，但你想在view中使用，那么必须使用helper_method :method_name 方式来声明，否则不能使用。
+
+rake db:migrate
+script/generate migration add_price_to_product price:decimal
+script/generate controller store index
+rake db:sessions:create
+rake db:migrate
+rake db:sessions:clear
+
+config.action_controller.session_store = :active_record_store in config/environment.rb
+
+ajax:
+	<% form_remote_tag :url => {:action => :add_to_cart, :id => product} do %>
+	  <%= submit_tag "Add to Cart" %>
+	<% end %>	
+in layout, add js file: <%= javascript_include_tag :defaults %>
+
 
 get one's bearings: Richard struggled with the map in the car to get his bearings.
 nascent ['næsənt, 'nei-]: a perfect start for our nascent application
@@ -25,3 +50,5 @@ hoist: our views are still filled with all the HTML structure we just hoisted in
 desirable: 
  tedious: To include an explicit option in every URL would be tedious and probably impossible, of course.
  clumsy: When working with a large amount of static content, which would be clumsy to put inside YAML or Ruby dictionaries.
+ tangible: starting with tangible examples before diving into heavy theory.
+ 
